@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "common-tags": "^1.4.0",
+    "expect": "^1.20.2",
+    "glob": "^7.1.2",
+    "mocha": "^3.4.2"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-register test-init.js some-test.js"
+  }
+}
